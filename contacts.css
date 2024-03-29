@@ -1,0 +1,45 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    left:50%;
+    top: 50%;
+   transform:translate(-50%,-50%);
+    font-weight:bold;
+}
+form{
+    background-color: #ffffff;
+    padding:120px;
+    border-radius:30px;
+    
+}
+form .corpsformulaire{
+    flex-direction: column;
+    flex-wrap:wrap;
+
+}
+form .corpsformulaire #groupe{
+  margin-top:20px;
+  border-radius:100px;
+  flex-direction: column;
+  display:flex;
+
+} 
+ .photo{
+    background-color: #fa9595;
+    height: 90px;
+    width:90px;
+    border-radius:900px;
+    margin-left:170px;
+    bottom:400px;
+    margin-bottom:130px;
+    position: absolute;
+}
+form .corpsformulaire input{
+    padding:10px 50px 10px 10px;
+}
+form .corpsformulaire button{
+background-color: chartreuse;
+margin-top:18px;
+}
